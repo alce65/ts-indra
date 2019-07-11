@@ -1,4 +1,3 @@
-"use strict";
 class Animal {
     constructor(especie) {
         this.especie = especie;

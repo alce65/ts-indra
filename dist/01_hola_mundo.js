@@ -1,4 +1,3 @@
-"use strict";
 let msg;
 msg = 'Hola amigos';
 console.log(msg);

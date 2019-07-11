@@ -1,5 +1,7 @@
-import { PAISES } from './08_maestros.js';
-export default class Controller {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const _08_maestros_js_1 = require("./08_maestros.js");
+class Controller {
     constructor() {
         console.log('Cargado el controller');
         this.nodos = {
@@ -8,7 +10,7 @@ export default class Controller {
             output: document.querySelector('#output'),
             paises: document.querySelector('#paises')
         };
-        this.aPaises = PAISES;
+        this.aPaises = _08_maestros_js_1.PAISES;
         // Renderizado del DOM
         let html = '';
         this.aPaises.forEach(item => {
@@ -33,4 +35,5 @@ export default class Controller {
         this.nodos.output.innerHTML = '';
     }
 }
+exports.default = Controller;
 //# sourceMappingURL=08_Controller.js.map

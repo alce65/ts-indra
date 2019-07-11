@@ -1,4 +1,6 @@
-export default class Persona {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class Persona {
     /* public nombre: string;
     protected edad: number;
     constructor(nombre = '', edad = 0) {
@@ -17,4 +19,5 @@ export default class Persona {
     }
 }
 Persona.especie = 'Homo sapiens';
+exports.default = Persona;
 //# sourceMappingURL=06_persona.js.map

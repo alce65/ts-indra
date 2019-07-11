@@ -1,4 +1,3 @@
-"use strict";
 {
     let cadena;
     let numero;
@@ -62,4 +61,21 @@
     let id;
     let nombre;
 }
+// Enum
+var colors;
+(function (colors) {
+    colors[colors["Rojo"] = 1] = "Rojo";
+    colors[colors["Verde"] = 2] = "Verde";
+    colors[colors["Azul"] = 3] = "Azul";
+})(colors || (colors = {}));
+;
+var colors0;
+(function (colors0) {
+    colors0[colors0["Rojo"] = 0] = "Rojo";
+    colors0[colors0["Verde"] = 1] = "Verde";
+    colors0[colors0["Azul"] = 2] = "Azul";
+})(colors0 || (colors0 = {}));
+;
+console.log(colors.Rojo);
+console.log(colors0.Rojo);
 //# sourceMappingURL=05_tipos.js.map

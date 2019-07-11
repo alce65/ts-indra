@@ -1,4 +1,3 @@
-"use strict";
 // Callbacks
 function leerDatos(callback) {
     setTimeout(() => {

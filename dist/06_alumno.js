@@ -1,5 +1,10 @@
-import Persona from './06_persona';
-export default class Alumno extends Persona {
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const _06_persona_1 = __importDefault(require("./06_persona"));
+class Alumno extends _06_persona_1.default {
     constructor(nombre, edad, curso) {
         super(nombre, edad);
         this.curso = curso;
@@ -10,4 +15,5 @@ export default class Alumno extends Persona {
         console.log(`y tengo ${this.edad} años`);
     }
 }
+exports.default = Alumno;
 //# sourceMappingURL=06_alumno.js.map

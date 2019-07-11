@@ -1,4 +1,3 @@
-"use strict";
 // Inferencia de tipos
 class Reptil {
     constructor(name = '') {

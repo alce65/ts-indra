@@ -1,4 +1,3 @@
-"use strict";
 function sumaTotal(aDatos = []) {
     // aClon = aDatos.slice()
     let r = 0;
